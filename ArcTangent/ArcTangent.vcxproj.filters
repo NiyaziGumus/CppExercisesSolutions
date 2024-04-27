@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Average.cpp">
+    <ClCompile Include="ArcTangent.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

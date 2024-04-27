@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{09b586e0-f112-4716-a3b5-27aa741d2849}</ProjectGuid>
-    <RootNamespace>Factorial</RootNamespace>
+    <ProjectGuid>{1a025392-e30b-4059-ac61-a83d8f93d86b}</ProjectGuid>
+    <RootNamespace>MatrixAddition</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Factorial.cpp" />
+    <ClCompile Include="MatrixAddition.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

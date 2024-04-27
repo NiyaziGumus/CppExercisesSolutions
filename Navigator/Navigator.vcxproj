@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{db7fd8d7-3cff-4cd5-8673-94996c499cf4}</ProjectGuid>
+    <ProjectGuid>{2ce4d1ce-bca2-43ae-9df0-7799b555f59e}</ProjectGuid>
     <RootNamespace>Navigator</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
