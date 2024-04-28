@@ -8,7 +8,7 @@ This application provides the solution to the following problem:
 
 > **Problem Description**
 
-![Arc Tangent Example](ArcTanget.jpg)
+![Arc Tangent Example](ArcTangent.jpg)
 
 ## How to Run
 To run this project, follow these steps:
