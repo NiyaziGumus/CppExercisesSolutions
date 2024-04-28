@@ -1,4 +1,4 @@
-# AVERAGE
+# ARC TANGENT
 
 ## Project Description
 This project is an exercise in learning the C++ programming language. It is designed to solve a specific programming concept or problem.
@@ -8,7 +8,7 @@ This application provides the solution to the following problem:
 
 > **Problem Description**
 
-![3D Distance Example](3dDistance.jpg)
+![Arc Tangent Example](ArcTanget.jpg)
 
 ## How to Run
 To run this project, follow these steps:
