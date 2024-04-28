@@ -1,4 +1,4 @@
-# AVERAGE
+# 3D DISTANCE
 
 ## Project Description
 This project is an exercise in learning the C++ programming language. It is designed to solve a specific programming concept or problem.
