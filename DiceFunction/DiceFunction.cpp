@@ -21,6 +21,25 @@ void DicePointer(int* die1, int* die2) {
     *die2 = rand() % 6 + 1;
 }
 
+void PrintRules() {
+    cout << "Welcome to the Simplified Craps Game!\n";
+    cout << "Here are the rules:\n\n";
+
+    cout << "1. You start with a certain amount of chips (e.g., $1000).\n";
+    cout << "2. Before rolling the dice, you must place a bet.\n";
+    cout << "3. The sum of the dice will determine the outcome of the game:\n";
+    cout << "   - If you roll a 7 or 11 on your first roll, you win.\n";
+    cout << "   - If you roll a 2, 3, or 12 on your first roll, this is called 'craps' and you lose.\n";
+    cout << "   - Any other number rolled becomes your 'point'.\n";
+    cout << "   - To win, you must roll your point again before rolling a 7.\n";
+    cout << "   - If you roll a 7 before rolling your point again, you lose.\n\n";
+
+    cout << "4. You can continue to play as long as you have chips.\n";
+    cout << "5. The game ends either when you decide to quit or when you run out of chips.\n\n";
+
+    cout << "Good luck, and enjoy the game!\n";
+}
+
 void Point(int point, int sum) {
     while (true)
     {
@@ -49,6 +68,7 @@ void Point(int point, int sum) {
     }
     
 }
+
 
 void Spiel() {
     bool gameRunning = chips > 0;
@@ -99,10 +119,10 @@ void menu() {
 
     while (!exit) {
         cout << "Your chips: $" << chips;
-        cout << "\n1)Roll the dice. 2) Exit. ";
+        cout << "\n1)Roll the dice. 2) Game rules. 3) Exit. ";
         cin >> choice;
 
-        if (!(choice == 1 || choice == 2)) {
+        if (!(choice == 1 || choice == 2 || choice == 3)) {
             cerr << "Wrong choice!!!\n";
             cin.clear();
             cin.ignore(numeric_limits<streamsize>::max(), '\n');
@@ -115,6 +135,9 @@ void menu() {
             Spiel();
             break;
         case 2:
+            PrintRules();
+            break;
+        case 3:
             cout << "Exiting...\n";
             exit = true;
             break;
@@ -128,8 +151,10 @@ void menu() {
         }
     }
 
-
 }
+
+
+
 
 int main()
 {
