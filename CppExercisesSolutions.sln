@@ -40,6 +40,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BubbleSort", "BubbleSort\Bu
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DiceFunction", "DiceFunction\DiceFunction.vcxproj", "{30CF10F1-314F-49A7-AC18-5AD190969167}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MedicalLabInventorySystem", "MedicalLabInventorySystem\MedicalLabInventorySystem.vcxproj", "{A5686B49-5F45-4D0E-A63B-A0E221A1065C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -176,6 +178,14 @@ Global
 		{30CF10F1-314F-49A7-AC18-5AD190969167}.Release|x64.Build.0 = Release|x64
 		{30CF10F1-314F-49A7-AC18-5AD190969167}.Release|x86.ActiveCfg = Release|Win32
 		{30CF10F1-314F-49A7-AC18-5AD190969167}.Release|x86.Build.0 = Release|Win32
+		{A5686B49-5F45-4D0E-A63B-A0E221A1065C}.Debug|x64.ActiveCfg = Debug|x64
+		{A5686B49-5F45-4D0E-A63B-A0E221A1065C}.Debug|x64.Build.0 = Debug|x64
+		{A5686B49-5F45-4D0E-A63B-A0E221A1065C}.Debug|x86.ActiveCfg = Debug|Win32
+		{A5686B49-5F45-4D0E-A63B-A0E221A1065C}.Debug|x86.Build.0 = Debug|Win32
+		{A5686B49-5F45-4D0E-A63B-A0E221A1065C}.Release|x64.ActiveCfg = Release|x64
+		{A5686B49-5F45-4D0E-A63B-A0E221A1065C}.Release|x64.Build.0 = Release|x64
+		{A5686B49-5F45-4D0E-A63B-A0E221A1065C}.Release|x86.ActiveCfg = Release|Win32
+		{A5686B49-5F45-4D0E-A63B-A0E221A1065C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
