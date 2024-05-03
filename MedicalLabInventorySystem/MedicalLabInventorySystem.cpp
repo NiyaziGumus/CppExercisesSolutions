@@ -21,16 +21,40 @@ void addItem() {
     cout << "Enter the name of the item: ";
     cin.ignore(numeric_limits<streamsize>::max(), '\n');;
     getline(cin, newItem.name);
-
+    
     cout << "Enter the manufacturer of the item: ";
     getline(cin, newItem.manufacturer);
 
-    cout << "Enter the price of the item: ";
-    cin >> newItem.price;
+    while (true)
+    {
+        cout << "Enter the price of the item: ";
+        cin >> newItem.price;
 
-    cout << "Is the item available (Y/N): ";
-    cin >> newItem.available;
-    cin.ignore(numeric_limits<streamsize>::max(), '\n');;
+        if (cin.fail() || newItem.price < 1) {
+            cerr << "Wrong choice!!!\n";
+            cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+        }
+        else {
+            break;
+        }
+    }
+    
+    while (true)
+    {
+        cout << "Is the item available (Y/N): ";
+        cin >> newItem.available;
+        newItem.available = toupper(newItem.available);
+
+        if (cin.fail() || !(newItem.available == 'Y' || newItem.available == 'N')) {
+            cerr << "Wrong choice!!!\n";
+            cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+        }
+        else {
+            break;
+        }
+    }
 
     inventoryList.push_back(newItem);
 }
